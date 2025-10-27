@@ -1,0 +1,43 @@
+DECISION TREE CLASSIFIER RESULTS - HEART DISEASE PREDICTION
+================================================================
+
+Dataset Information:
+- Total samples: 1,025
+- Features: 13
+- Target distribution: 526 (1 = Heart Disease), 499 (0 = No Heart Disease)
+
+Model Performance:
+- Algorithm: Decision Tree Classifier
+- Max depth: 5
+- Criterion: Entropy
+- Test accuracy: 84.39%
+- Training split: 80% train, 20% test
+
+Classification Report:
+                    Precision  Recall  F1-Score  Support
+  No Heart Disease     0.93      0.75     0.83       102
+      Heart Disease     0.79      0.94     0.86       103
+             
+Confusion Matrix:
+                Predicted
+Actual        0     1
+        0    76    26
+        1     6    97
+
+Top 5 Most Important Features:
+1. cp (chest pain type) - 28.72% importance
+2. ca (number of major vessels) - 18.00% importance
+3. thal (thalassemia) - 15.22% importance
+4. oldpeak (ST depression) - 9.26% importance
+5. age - 5.99% importance
+
+Visualizations Created:
+1. decision_tree_visualization.png - Full decision tree structure
+2. feature_importance.png - Feature importance bar chart
+
+Key Insights:
+- Chest pain type (cp) is the most important predictor
+- The model shows high precision for "No Heart Disease" (0.93) but lower recall (0.75)
+- The model has excellent recall for "Heart Disease" (0.94) 
+- Overall balanced performance with good accuracy (84.39%)
+

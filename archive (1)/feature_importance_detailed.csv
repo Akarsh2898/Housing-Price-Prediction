@@ -1,0 +1,14 @@
+Feature,Description,Decision_Tree,Random_Forest,Difference,Medical_Meaning
+thalach,Maximum heart rate achieved,0.08275465816991885,0.12275428807391746,0.03999962990399861,Peak heart rate during exercise
+ca,Number of major vessels colored by fluoroscopy (0-4),0.13059077745671413,0.12047834212026988,-0.01011243533644425,Blockage count in coronary arteries
+oldpeak,ST depression induced by exercise,0.09229044085562514,0.11614561277334434,0.0238551719177192,ST segment changes indicate ischemia
+cp,"Chest pain type (0, 1, 2, 3)",0.20832141845865917,0.11372808719473726,-0.09459333126392191,Type of chest pain experienced
+thal,"Thalassemia type (1, 2, 3)",0.11038497371466995,0.0976682605718152,-0.012716713142854746,Blood disorder type
+chol,Serum cholesterol (mg/dl),0.09959138322509072,0.08865577628244582,-0.010935606942644893,Blood cholesterol level
+age,Patient age in years,0.10215002217084419,0.08617016083533362,-0.015979861335510576,Age is a known risk factor for heart disease
+trestbps,Resting blood pressure (mm Hg),0.03862400226243074,0.0802595874842134,0.04163558522178266,Blood pressure at rest
+exang,"Exercise induced angina (1 = yes, 0 = no)",0.01906813756668132,0.0551051434912354,0.03603700592455408,Chest pain during exercise
+slope,"Slope of peak exercise ST segment (0, 1, 2)",0.04475416340592021,0.05291593978163864,0.008161776375718431,ST segment behavior during exercise
+sex,"Gender (1 = male, 0 = female)",0.016057762652380535,0.03692728852685384,0.020869525874473306,Biological sex affects heart disease risk
+restecg,"Resting ECG results (0, 1, 2)",0.028757645165301274,0.019819590137069396,-0.008938055028231879,Electrical activity of heart at rest
+fbs,"Fasting blood sugar > 120 mg/dl (1 = true, 0 = false)",0.02665461489576382,0.009371922727125786,-0.017282692168638036,Diabetes indicator
